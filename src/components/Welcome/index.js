@@ -15,6 +15,7 @@ class Welcome extends Component {
   }
 
   render() {
+    const buttonText=this.buttonText()
     return (
       <div className="container">
         <h1 className="heading">Welcome</h1>
